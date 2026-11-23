@@ -18,8 +18,6 @@ jobs:
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-          NAVER_ID: ${{ secrets.NAVER_ID }}
-          NAVER_SECRET: ${{ secrets.NAVER_SECRET }}
           RSS_URLS: ${{ secrets.RSS_URLS }}
       - run: |
           git config user.name "bot"
